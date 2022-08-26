@@ -16,3 +16,9 @@ Probably sklearn (pip install sklearn) is required for SCV prediction
 - **main.py**: entry point, it handles the GUI and calls evaluator form evaluator.py;
 -  **reduced.joblib**: SVC model trained with separeted scripts;
 -  **risposte.txt**: list of all the corrected answers for a given test. DO NOT MODIFY IT BY HAND, launch main.py and edit them from there.
+
+## To-Dos
+-  Train again the model with normally drawn answers;
+-  In "evaluator.py" the function find_n_black_point_on_row is fuctional but not optimized
+-  Remove the current align system and replace it with warpAffine function from openCV. Standard blank sheets will be modified after this
+
